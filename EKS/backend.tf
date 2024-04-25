@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "cicd-terraform-eks"
+    bucket = "elasticbeanstalk-eu-central-1-319952980369"
     key    = "eks/terraform.tfstate"
     region = "us-east-2"
   }
